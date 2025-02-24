@@ -8,8 +8,8 @@ public class ComputeArea {
 	// write your code here
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number for radius: ");
-        double radius = input.nextDouble();
-        //double radius = 2;
+        //double radius = input.nextDouble();
+        double radius = 2;
         double area = areaC(radius);
 
         // Display results //instead of 'Log' System.out.println
